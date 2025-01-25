@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Challenge</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="team-challenge.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="team-challenge" class="flex-center flex-column">
+        <h1>Team Challenge</h1>
+        <div class="challenge-options">
+          <button class="btn" id="create-team-btn">Create Team</button>
+          <button class="btn" id="join-team-btn">Join Team</button>
+        </div>
+        
+        <div id="create-team-form" class="hidden">
+          <input type="text" id="team-name" placeholder="Team Name">
+          <input type="text" id="player-name" placeholder="Your Name">
+          <button class="btn" id="generate-code">Generate Team Code</button>
+        </div>
+
+        <div id="join-team-form" class="hidden">
+          <input type="text" id="team-code" placeholder="Enter Team Code">
+          <input type="text" id="joining-player-name" placeholder="Your Name">
+          <button class="btn" id="join-code">Join Team</button>
+        </div>
+      </div>
+    </div>
+    <script src="team-challenge.js"></script>
+  </body>
+</html>
